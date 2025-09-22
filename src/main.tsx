@@ -5,7 +5,9 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')!).render(//- HTML 문서에서 id="root"인 요소를 찾아 React 앱을 그 위에 렌더링을 준비, !: null이 아님
   <BrowserRouter>
+  <>
   <App />
+  </>
   </BrowserRouter>
   
 
